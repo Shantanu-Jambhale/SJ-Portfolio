@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shantanu Jambhale | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen" aria-live="polite">
+        <div class="loading-content">
+            <h2>Loading Portfolio . . .</h2>
+            <p id="loadingCompliment">Processing data</p>
+            <div class="loading-percent" id="loadingPercent">0%</div>
+            <div class="loading-bar">
+                <span id="loadingBarFill"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-content">
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">SJ<span>.</span><span class="logo-dev">dev</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-logo-wrap">
+                    <div class="hero-logo">SJ</div>
+                </div>
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1>Shantanu <span class="highlight">Jambhale</span></h1>
+                <p class="hero-role">Computer Science Student (AI &amp; Data Science)</p>
+                <p class="hero-desc">Passionate about Agentic AI, Cybersecurity, and Machine Learning. Building intelligent solutions for a smarter future.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#about" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/shantanu-jambhale?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="card-inner">
+                    <div class="card-logo">SJ</div>
+                    <h3>Shantanu Jambhale</h3>
+                    <p>AI &amp; Data Science Enthusiast</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h4>9.05
+                            </h4>
+                            <p>CGPA</p>
+                        </div>
+                        <div class="stat">
+                            <h4>7+</h4>
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header reveal">
+            <p class="section-tag">About Me</p>
+            <h2>Who I Am</h2>
+        </div>
+        <div class="about-content reveal">
+            <div class="about-text">
+                <p>I'm a dedicated Computer Science student currently in my <strong>Second Year</strong>, specializing in <strong>Artificial Intelligence &amp; Data Science</strong>. I'm passionate about leveraging technology to solve real-world problems and create meaningful impact.</p>
+                <p>With a strong academic record of <strong>9.05 CGPA</strong>, I constantly push myself to learn and grow. I've participated in competitive coding events and hold multiple certifications that demonstrate my commitment to mastering programming fundamentals and problem-solving.</p>
+                <p>My interests span across <strong>Agentic AI</strong>, <strong>Cybersecurity</strong>, and <strong>Machine Learning</strong> — fields where I aspire to build expertise and contribute to innovative projects.</p>
+                <div class="about-info-grid">
+                    <div class="info-item">
+                        <i class="fas fa-user-graduate"></i>
+                        <div>
+                            <h4>Education</h4>
+                            <p>BTech in Computer Scienc(AI &amp; Data Science (2nd Year))</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-trophy"></i>
+                        <div>
+                            <h4>CGPA</h4>
+                            <p>9.05 / 10.0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="section-header reveal">
+            <p class="section-tag">Education</p>
+            <h2>My Academic Journey</h2>
+        </div>
+<div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-icon"><i class="fas fa-school"></i></div>
+                    <h3>ICSE (10th Board)</h3>
+                    <h4>Vasant Vihar High School and Junior College, Thane</h4>
+                    <p class="timeline-date">Completed</p>
+                    <p>Completed my 10th Board examinations with a remarkable score.</p>
+                    <div class="cgpa-badge">96%</div>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Bachelor of Engineering</h3>
+                    <h4>Computer Science (AI &amp; Data Science)</h4>
+                    <p class="timeline-date">Second Year (Ongoing)</p>
+                    <p>Currently pursuing my B.E. degree with a strong focus on Artificial Intelligence, Data Science, and Machine Learning.</p>
+                    <div class="cgpa-badge">CGPA: 9.05
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="section-header reveal">
+            <p class="section-tag">Achievements</p>
+            <h2>Milestones &amp; Highlights</h2>
+        </div>
+        <div class="achievements-grid">
+            <div class="ach-card reveal">
+                <div class="ach-icon"><i class="fas fa-code"></i></div>
+                <h3>HackerRank Orchestrate 2026</h3>
+                <p>Participated in the prestigious HackerRank Orchestrate 2026 competitive programming event, competing against top coding talent.</p>
+            </div>
+            <div class="ach-card reveal">
+                <div class="ach-icon"><i class="fas fa-star"></i></div>
+                <h3>Academic Excellence</h3>
+                <p>Maintained an outstanding 9.05 CGPA, demonstrating consistent academic performance and deep understanding of core subjects.</p>
+            </div>
+            <div class="ach-card reveal">
+                <div class="ach-icon"><i class="fas fa-puzzle-piece"></i></div>
+                <h3>Problem Solving</h3>
+                <p>Certified in Problem Solving (Intermediate) by HackerRank, showcasing strong algorithmic thinking and coding skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="section-header reveal">
+            <p class="section-tag">Certifications</p>
+            <h2>Certifications &amp; Skills</h2>
+        </div>
+        <div class="cert-grid reveal">
+            <div class="cert-card">
+                <div class="cert-logo"><i class="fab fa-python"></i></div>
+                <h3>Python</h3>
+                <p>Programming Language</p>
+            </div>
+            <div class="cert-card">
+                <div class="cert-logo"><i class="fab fa-java"></i></div>
+                <h3>Java</h3>
+                <p>Programming Language</p>
+            </div>
+            <div class="cert-card">
+                <div class="cert-logo"><i class="fas fa-code"></i></div>
+                <h3>C Programming</h3>
+                <p>Programming Language</p>
+            </div>
+<div class="cert-card">
+                <div class="cert-logo"><i class="fab fa-html5"></i></div>
+                <h3>HTML</h3>
+                <p>Web Development</p>
+            </div>
+            <div class="cert-card">
+                <div class="cert-logo"><i class="fas fa-database"></i></div>
+                <h3>SQL</h3>
+                <p>Database Management</p>
+            </div>
+            <div class="cert-card">
+                <div class="cert-logo"><i class="fas fa-rocket"></i></div>
+                <h3>ISRO Certification</h3>
+                <p>Rocket Propulsion and SpaceCraft Dynamics</p>
+            </div>
+            <div class="cert-card cert-featured">
+                <div class="cert-logo"><i class="fas fa-brain"></i></div>
+                <h3>Problem Solving</h3>
+                <p>Intermediate · HackerRank</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header reveal">
+            <p class="section-tag">Projects</p>
+            <h2>Featured Work</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card reveal">
+                <div class="project-icon"><i class="fab fa-whatsapp"></i></div>
+                <h3>WhatsApp Message Router</h3>
+                <p>Built a smart router that classifies incoming messages into Notify, Digest, and Mute based on message importance and urgency.</p>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-icon"><i class="fas fa-robot"></i></div>
+                <h3>AI Coding Agent</h3>
+                <p>Created an AI companion designed to assist with daily coding tasks, provide helpful suggestions, and simplify development workflows.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="interests">
+        <div class="section-header reveal">
+            <p class="section-tag">Interests</p>
+            <h2>Areas I'm Passionate About</h2>
+        </div>
+        <div class="interests-grid">
+            <div class="interest-card reveal">
+                <div class="interest-icon"><i class="fas fa-robot"></i></div>
+                <h3>Agentic AI</h3>
+                <p>Exploring autonomous AI agents that can make decisions, plan, and execute tasks independently.</p>
+            </div>
+            <div class="interest-card reveal">
+                <div class="interest-icon"><i class="fas fa-shield-halved"></i></div>
+                <h3>Cybersecurity</h3>
+                <p>Passionate about protecting digital systems and data from evolving cyber threats.</p>
+            </div>
+            <div class="interest-card reveal">
+                <div class="interest-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Machine Learning</h3>
+                <p>Building models that learn from data to make predictions and drive intelligent decisions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header reveal">
+            <p class="section-tag">Contact</p>
+            <h2>Let's Connect</h2>
+        </div>
+        <div class="contact-content reveal">
+            <p>I'm always eager to collaborate on exciting projects and connect with like-minded people. Feel free to reach out!</p>
+<div class="contact-links">
+                <a href="mailto:shantanuj1709@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>shantanuj1709@gmail.com</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/shantanu-jambhale?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="contact-link">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>&copy; 2026 Shantanu Jambhale. All rights reserved.</p>
+            <p>Built with <i class="fas fa-heart"></i> by Shantanu</p>
+        </footer>
+    </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
